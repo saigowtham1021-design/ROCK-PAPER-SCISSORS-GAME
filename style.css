@@ -1,0 +1,47 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid blanchedalmond;
+  }
+  .title-name{
+      font-size: 40px;
+      font-weight: bold;
+
+  }
+  .move-icon{
+      height: 80px;
+  }
+  .move-button{
+      background-color: transparent;
+      border: 2px dotted white;
+      border-radius: 100px;
+      padding: 30px;
+      margin-bottom: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+  }
+  .result{
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .streak{
+      margin-top: 60px;
+      font-weight: 500;
+  }
+  .reset-btn{
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background-color: rgb(116, 246, 246);
+      padding: 10px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+  }
